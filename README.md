@@ -242,8 +242,3 @@ CI/CD pipeline using GitHub Actions
 Deployment to AWS EKS  
 Service mesh with Istio  
 
----
-
-# Author
-
-DevOps / Cloud Engineering Portfolio Project
