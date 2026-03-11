@@ -9,11 +9,17 @@ This project demonstrates how production-grade applications are deployed and man
 # Architecture
 
 Client
+   
    │
+   
    ▼
+
 Ingress Controller
+
    │
+   
    ├── /products → Product Service
+   
    └── /orders   → Order Service
                     │
                     ▼
@@ -86,29 +92,47 @@ Example response:
 
 
 Production-Style-Kubernetes-Microservices
+
 │
 
 ├── product-service
+
 │ ├── app.js
+
 │ └── Dockerfile
+
 │
 
 ├── order-service
+
 │ ├── app.js
+
 │ └── Dockerfile
+
 │
+
 
 ├── k8s
+
 │ ├── product-deployment.yaml
+
 │ ├── order-deployment.yaml
+
 │ ├── postgres-deployment.yaml
+
 │ ├── postgres-pvc.yaml
+
 │ ├── services.yaml
+
 │ └── app-ingress.yaml
+
 │
 
+
 ├── monitoring
+
 │ └── install-monitoring.md
+
 │
 
 └── README.md
